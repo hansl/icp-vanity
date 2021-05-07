@@ -1,0 +1,16 @@
+[package]
+name = "icp-vanity"
+version = "0.1.0"
+authors = ["Hans Larsen <hans@larsen.online>"]
+edition = "2018"
+license-file = "LICENSE"
+readme = "README.md"
+description = "Create vanity principals for the Internet Computer."
+repository = "https://github.com/hansl/icp-vanity"
+
+[dependencies]
+clap = "3.0.0-beta.2"
+ic-agent = "0.4.0"
+pem = "0.8.3"
+regex = "1.5.4"
+ring = "0.16.11"
