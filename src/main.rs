@@ -57,5 +57,9 @@ fn main() {
                 generate_principal_loop(&pattern, loose);
             })
         })
-        .fold((), |_, handle| handle.join().unwrap())
+        .collect::<Vec<_>>()
+        .into_iter()
+        .fold((), |_, handle| {
+            handle.join().unwrap();
+        });
 }

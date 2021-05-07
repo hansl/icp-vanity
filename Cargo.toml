@@ -1,6 +1,6 @@
 [package]
 name = "icp-vanity"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Hans Larsen <hans@larsen.online>"]
 edition = "2018"
 license-file = "LICENSE"
